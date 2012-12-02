@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Alfa Romeo</string>
+	<string>Alpina</string>
+	<string>Ariel</string>
+	<string>Ascari</string>
+	<string>Aston Martin</string>
+	<string>Audi</string>
+	<string>Bentley</string>
+	<string>BMW</string>
+	<string>Bristol</string>
+	<string>Brooke</string>
+	<string>Cadillac</string>
+	<string>Callaway</string>
+	<string>Campagna</string>
+	<string>Caterham</string>
+	<string>Chevrolet</string>
+	<string>Chrysler</string>
+	<string>Citroen</string>
+	<string>Corvette</string>
+	<string>Daihatsu</string>
+	<string>Dodge</string>
+	<string>Elfin</string>
+	<string>Ferrari</string>
+	<string>Fiat</string>
+	<string>Ford</string>
+	<string>Gumpert</string>
+	<string>Holden</string>
+	<string>Honda</string>
+	<string>Hummer</string>
+	<string>Hyundai</string>
+	<string>Invicta</string>
+	<string>Isuzu</string>
+	<string>Jaguar</string>
+	<string>Jeep</string>
+	<string>Kia</string>
+	<string>Koenigsegg</string>
+	<string>Lamborghini</string>
+	<string>Land Rover</string>
+	<string>Lexus</string>
+	<string>Lobini</string>
+	<string>Lotus</string>
+	<string>Marcos</string>
+	<string>Maserati</string>
+	<string>Maybach</string>
+	<string>Mazda</string>
+	<string>MB Roadcars</string>
+	<string>Mercedes-Benz</string>
+	<string>Mini</string>
+	<string>Mitsubishi</string>
+	<string>Morgan</string>
+	<string>NICE</string>
+	<string>Nissan</string>
+	<string>Noble</string>
+	<string>Opel</string>
+	<string>Pagani</string>
+	<string>Perodua</string>
+	<string>Peugeot</string>
+	<string>Porsche</string>
+	<string>Proton</string>
+	<string>Radical</string>
+	<string>Renault</string>
+	<string>Rolls-Royce</string>
+	<string>Saab</string>
+	<string>Saturn</string>
+	<string>Seat</string>
+	<string>Shelby</string>
+	<string>Skoda</string>
+	<string>Smart</string>
+	<string>Spyker</string>
+	<string>Ssangyong</string>
+	<string>SSC</string>
+	<string>Subaru</string>
+	<string>Superformance</string>
+	<string>Suzuki</string>
+	<string>Tata</string>
+	<string>Tesla</string>
+	<string>Toyota</string>
+	<string>TVR</string>
+	<string>Unique</string>
+	<string>Vauxhall</string>
+	<string>Volkswagen</string>
+	<string>Volvo</string>
+</array>
+</plist>
