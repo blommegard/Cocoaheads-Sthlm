@@ -15,6 +15,7 @@
 		F43D8F0B166BB97100B15E8E /* car3.png in Resources */ = {isa = PBXBuildFile; fileRef = F43D8F05166BB97100B15E8E /* car3.png */; };
 		F43D8F0C166BB97100B15E8E /* car3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F43D8F06166BB97100B15E8E /* car3@2x.png */; };
 		F43D8F0E166BBF6800B15E8E /* bigImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F43D8F0D166BBF6800B15E8E /* bigImage.jpg */; };
+		F43D8F11166BC72200B15E8E /* SBAPNSPusher.m in Sources */ = {isa = PBXBuildFile; fileRef = F43D8F10166BC72200B15E8E /* SBAPNSPusher.m */; };
 		F48955C31664214300741B13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48955C21664214300741B13 /* UIKit.framework */; };
 		F48955C51664214300741B13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48955C41664214300741B13 /* Foundation.framework */; };
 		F48955C71664214300741B13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48955C61664214300741B13 /* CoreGraphics.framework */; };
@@ -40,6 +41,8 @@
 		F43D8F05166BB97100B15E8E /* car3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car3.png; sourceTree = "<group>"; };
 		F43D8F06166BB97100B15E8E /* car3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car3@2x.png"; sourceTree = "<group>"; };
 		F43D8F0D166BBF6800B15E8E /* bigImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bigImage.jpg; sourceTree = "<group>"; };
+		F43D8F0F166BC72200B15E8E /* SBAPNSPusher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBAPNSPusher.h; sourceTree = "<group>"; };
+		F43D8F10166BC72200B15E8E /* SBAPNSPusher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBAPNSPusher.m; sourceTree = "<group>"; };
 		F48955BE1664214300741B13 /* Cocoaheads-Debugging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocoaheads-Debugging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48955C21664214300741B13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F48955C41664214300741B13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -105,6 +108,8 @@
 		F48955C81664214300741B13 /* Cocoaheads-Debugging */ = {
 			isa = PBXGroup;
 			children = (
+				F43D8F0F166BC72200B15E8E /* SBAPNSPusher.h */,
+				F43D8F10166BC72200B15E8E /* SBAPNSPusher.m */,
 				F43D8F0D166BBF6800B15E8E /* bigImage.jpg */,
 				F43D8F01166BB97000B15E8E /* car1.png */,
 				F43D8F02166BB97000B15E8E /* car1@2x.png */,
@@ -221,6 +226,7 @@
 				F48955DC1664214300741B13 /* WRPViewController.m in Sources */,
 				F48955EC1664D0D100741B13 /* WRPCarBrand.m in Sources */,
 				F43D8EE2166BA58C00B15E8E /* WRPCarBrandCell.m in Sources */,
+				F43D8F11166BC72200B15E8E /* SBAPNSPusher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				GCC_PREFIX_HEADER = "Cocoaheads-Debugging/Cocoaheads-Debugging-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Cocoaheads-Debugging/Cocoaheads-Debugging-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
 				WARNING_CFLAGS = "-Wshadow";
@@ -318,6 +325,7 @@
 				GCC_PREFIX_HEADER = "Cocoaheads-Debugging/Cocoaheads-Debugging-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Cocoaheads-Debugging/Cocoaheads-Debugging-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "86883668-35A6-4ED7-AD11-3A57D550AE11";
 				USER_HEADER_SEARCH_PATHS = "";
