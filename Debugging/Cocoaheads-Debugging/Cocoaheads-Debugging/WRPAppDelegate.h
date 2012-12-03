@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-
 @interface WRPAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) IBOutlet UIWindow *window;
+@property (strong, nonatomic) UIWindow *window;
 
 @end

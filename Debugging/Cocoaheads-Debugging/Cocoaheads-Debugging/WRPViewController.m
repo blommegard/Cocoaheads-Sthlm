@@ -9,10 +9,10 @@
 #import "WRPViewController.h"
 #import "WRPCarBrand.h"
 #import "WRPCarBrandCell.h"
+#import "AFNetworking.h"
 
 @interface WRPViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, copy) NSArray *brands;
 @end
 
 @implementation WRPViewController
@@ -31,18 +31,12 @@
   
   [self.view addSubview:self.tableView];
   
-  
-  NSMutableArray *array = [NSMutableArray array];
-  
   [[self brandNamesFromFile] enumerateObjectsUsingBlock:^(NSString *name, NSUInteger idx, BOOL *stop) {
-    WRPCarBrand *brand = [WRPCarBrand new];
+    WRPCarBrand *brand = [WRPCarBrand MR_createEntity];
+    
     [brand setName:name];
     [brand setImageName:[NSString stringWithFormat:@"car%d", (idx%3+1)]];
-    [array addObject:brand];
   }];
-  
-  
-  [self setBrands:array];
   
   [self.tableView reloadData];
 }
@@ -65,7 +59,7 @@
 #pragma UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-  return self.brands.count;
+  return [WRPCarBrand MR_findAll].count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -73,9 +67,25 @@
   WRPCarBrandCell *cell = [tableView dequeueReusableCellWithIdentifier:WRPCarBrandCellIdentifier
                                                           forIndexPath:indexPath];
   
-  [cell setBrand:self.brands[indexPath.row]];
+  
+  NSArray *brands = [WRPCarBrand MR_findAllSortedBy:@"name" ascending:YES];
+  [cell setBrand:brands[indexPath.row]];
   
   return cell;
+}
+
+#pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+  NSURL *url = nil;
+  if (indexPath.row%2 == 0)
+    url = [NSURL URLWithString:@"https://api.twitter.com/1/statuses/user_timeline.json?include_entities=true&screen_name=blommegard&count=5"];
+  else
+    url = [NSURL URLWithString:@"http://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Nyan_cat_250px_frame.PNG/220px-Nyan_cat_250px_frame.PNG"];
+    
+  NSURLRequest *request = [NSURLRequest requestWithURL:url];
+  AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:nil failure:nil];
+  [operation start];
 }
 
 #pragma mark -

@@ -1,0 +1,9 @@
+[submodule "Debugging/Cocoaheads-Debugging/Cocoaheads-Debugging/Vendor/MagicalRecord"]
+	path = Debugging/Cocoaheads-Debugging/Cocoaheads-Debugging/Vendor/MagicalRecord
+	url = https://github.com/magicalpanda/MagicalRecord.git
+[submodule "Debugging/Cocoaheads-Debugging/Cocoaheads-Debugging/Vendor/PonyDebugger"]
+	path = Debugging/Cocoaheads-Debugging/Cocoaheads-Debugging/Vendor/PonyDebugger
+	url = https://github.com/square/PonyDebugger.git
+[submodule "Debugging/Cocoaheads-Debugging/Cocoaheads-Debugging/Vendor/AFnetworking"]
+	path = Debugging/Cocoaheads-Debugging/Cocoaheads-Debugging/Vendor/AFnetworking
+	url = https://github.com/AFNetworking/AFNetworking.git

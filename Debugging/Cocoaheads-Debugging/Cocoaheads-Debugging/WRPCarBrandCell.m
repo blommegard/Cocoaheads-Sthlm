@@ -36,10 +36,10 @@ NSString * const WRPCarBrandCellIdentifier = @"WRPCarBrandCellIdentifier";
   [self.brandLabel setText:brand.name];
   
   // Do something bad…
-//  dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
+  dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
     for (NSInteger i=0; i<50; i++)
       [self bad];
-//  });
+  });
 }
 
 - (UIImageView *)brandImageView {
@@ -54,7 +54,7 @@ NSString * const WRPCarBrandCellIdentifier = @"WRPCarBrandCellIdentifier";
     _brandLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.f, 150.f, 320.f, 50.f)];
     [_brandLabel setTextAlignment:NSTextAlignmentCenter];
     [_brandLabel setFont:[UIFont systemFontOfSize:18.f]];
-    [_brandLabel setBackgroundColor:[UIColor clearColor]];
+    [_brandLabel setBackgroundColor:[UIColor whiteColor]];
   }
   return _brandLabel;
 }
