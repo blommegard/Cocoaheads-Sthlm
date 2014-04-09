@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4548A1118F2C62800D76A4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4548A1018F2C62800D76A4A /* Foundation.framework */; };
+		F4548A1318F2C62800D76A4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4548A1218F2C62800D76A4A /* CoreGraphics.framework */; };
+		F4548A1518F2C62800D76A4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4548A1418F2C62800D76A4A /* UIKit.framework */; };
+		F4548A1B18F2C62800D76A4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4548A1918F2C62800D76A4A /* InfoPlist.strings */; };
+		F4548A1D18F2C62800D76A4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4548A1C18F2C62800D76A4A /* main.m */; };
+		F4548A2118F2C62800D76A4A /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4548A2018F2C62800D76A4A /* SBAppDelegate.m */; };
+		F4548A2718F2C62800D76A4A /* SBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4548A2618F2C62800D76A4A /* SBFirstViewController.m */; };
+		F4548A2A18F2C62800D76A4A /* SBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4548A2918F2C62800D76A4A /* SBSecondViewController.m */; };
+		F4548A2C18F2C62800D76A4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4548A2B18F2C62800D76A4A /* Images.xcassets */; };
+		F4548A3318F2C62800D76A4A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4548A3218F2C62800D76A4A /* XCTest.framework */; };
+		F4548A3418F2C62800D76A4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4548A1018F2C62800D76A4A /* Foundation.framework */; };
+		F4548A3518F2C62800D76A4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4548A1418F2C62800D76A4A /* UIKit.framework */; };
+		F4548A3D18F2C62800D76A4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4548A3B18F2C62800D76A4A /* InfoPlist.strings */; };
+		F4548A3F18F2C62800D76A4A /* Cocoaheads_CVCTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4548A3E18F2C62800D76A4A /* Cocoaheads_CVCTTests.m */; };
+		F4A9CE2318F2CC8500F2CAC4 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4A9CE2218F2CC8500F2CAC4 /* Main.xib */; };
+		F4A9CE2618F2D4B700F2CAC4 /* SBThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A9CE2518F2D4B700F2CAC4 /* SBThirdViewController.m */; };
+		F4A9CE2918F2F39E00F2CAC4 /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A9CE2818F2F39E00F2CAC4 /* SBViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4548A3618F2C62800D76A4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4548A0518F2C62800D76A4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4548A0C18F2C62800D76A4A;
+			remoteInfo = "Cocoaheads-CVCT";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4548A0D18F2C62800D76A4A /* Cocoaheads-CVCT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocoaheads-CVCT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4548A1018F2C62800D76A4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4548A1218F2C62800D76A4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4548A1418F2C62800D76A4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4548A1818F2C62800D76A4A /* Cocoaheads-CVCT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocoaheads-CVCT-Info.plist"; sourceTree = "<group>"; };
+		F4548A1A18F2C62800D76A4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4548A1C18F2C62800D76A4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4548A1E18F2C62800D76A4A /* Cocoaheads-CVCT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cocoaheads-CVCT-Prefix.pch"; sourceTree = "<group>"; };
+		F4548A1F18F2C62800D76A4A /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		F4548A2018F2C62800D76A4A /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		F4548A2518F2C62800D76A4A /* SBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBFirstViewController.h; sourceTree = "<group>"; };
+		F4548A2618F2C62800D76A4A /* SBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBFirstViewController.m; sourceTree = "<group>"; };
+		F4548A2818F2C62800D76A4A /* SBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSecondViewController.h; sourceTree = "<group>"; };
+		F4548A2918F2C62800D76A4A /* SBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSecondViewController.m; sourceTree = "<group>"; };
+		F4548A2B18F2C62800D76A4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4548A3118F2C62800D76A4A /* Cocoaheads-CVCTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cocoaheads-CVCTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4548A3218F2C62800D76A4A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F4548A3A18F2C62800D76A4A /* Cocoaheads-CVCTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocoaheads-CVCTTests-Info.plist"; sourceTree = "<group>"; };
+		F4548A3C18F2C62800D76A4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4548A3E18F2C62800D76A4A /* Cocoaheads_CVCTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cocoaheads_CVCTTests.m; sourceTree = "<group>"; };
+		F4A9CE2218F2CC8500F2CAC4 /* Main.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		F4A9CE2418F2D4B700F2CAC4 /* SBThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBThirdViewController.h; sourceTree = "<group>"; };
+		F4A9CE2518F2D4B700F2CAC4 /* SBThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBThirdViewController.m; sourceTree = "<group>"; };
+		F4A9CE2718F2F39E00F2CAC4 /* SBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
+		F4A9CE2818F2F39E00F2CAC4 /* SBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4548A0A18F2C62800D76A4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4548A1318F2C62800D76A4A /* CoreGraphics.framework in Frameworks */,
+				F4548A1518F2C62800D76A4A /* UIKit.framework in Frameworks */,
+				F4548A1118F2C62800D76A4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4548A2E18F2C62800D76A4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4548A3318F2C62800D76A4A /* XCTest.framework in Frameworks */,
+				F4548A3518F2C62800D76A4A /* UIKit.framework in Frameworks */,
+				F4548A3418F2C62800D76A4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4548A0418F2C62800D76A4A = {
+			isa = PBXGroup;
+			children = (
+				F4548A1618F2C62800D76A4A /* Cocoaheads-CVCT */,
+				F4548A3818F2C62800D76A4A /* Cocoaheads-CVCTTests */,
+				F4548A0F18F2C62800D76A4A /* Frameworks */,
+				F4548A0E18F2C62800D76A4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4548A0E18F2C62800D76A4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4548A0D18F2C62800D76A4A /* Cocoaheads-CVCT.app */,
+				F4548A3118F2C62800D76A4A /* Cocoaheads-CVCTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4548A0F18F2C62800D76A4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4548A1018F2C62800D76A4A /* Foundation.framework */,
+				F4548A1218F2C62800D76A4A /* CoreGraphics.framework */,
+				F4548A1418F2C62800D76A4A /* UIKit.framework */,
+				F4548A3218F2C62800D76A4A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4548A1618F2C62800D76A4A /* Cocoaheads-CVCT */ = {
+			isa = PBXGroup;
+			children = (
+				F4A9CE2218F2CC8500F2CAC4 /* Main.xib */,
+				F4548A1F18F2C62800D76A4A /* SBAppDelegate.h */,
+				F4548A2018F2C62800D76A4A /* SBAppDelegate.m */,
+				F4A9CE2718F2F39E00F2CAC4 /* SBViewController.h */,
+				F4A9CE2818F2F39E00F2CAC4 /* SBViewController.m */,
+				F4548A2518F2C62800D76A4A /* SBFirstViewController.h */,
+				F4548A2618F2C62800D76A4A /* SBFirstViewController.m */,
+				F4548A2818F2C62800D76A4A /* SBSecondViewController.h */,
+				F4548A2918F2C62800D76A4A /* SBSecondViewController.m */,
+				F4A9CE2418F2D4B700F2CAC4 /* SBThirdViewController.h */,
+				F4A9CE2518F2D4B700F2CAC4 /* SBThirdViewController.m */,
+				F4548A2B18F2C62800D76A4A /* Images.xcassets */,
+				F4548A1718F2C62800D76A4A /* Supporting Files */,
+			);
+			path = "Cocoaheads-CVCT";
+			sourceTree = "<group>";
+		};
+		F4548A1718F2C62800D76A4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4548A1818F2C62800D76A4A /* Cocoaheads-CVCT-Info.plist */,
+				F4548A1918F2C62800D76A4A /* InfoPlist.strings */,
+				F4548A1C18F2C62800D76A4A /* main.m */,
+				F4548A1E18F2C62800D76A4A /* Cocoaheads-CVCT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4548A3818F2C62800D76A4A /* Cocoaheads-CVCTTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4548A3E18F2C62800D76A4A /* Cocoaheads_CVCTTests.m */,
+				F4548A3918F2C62800D76A4A /* Supporting Files */,
+			);
+			path = "Cocoaheads-CVCTTests";
+			sourceTree = "<group>";
+		};
+		F4548A3918F2C62800D76A4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4548A3A18F2C62800D76A4A /* Cocoaheads-CVCTTests-Info.plist */,
+				F4548A3B18F2C62800D76A4A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4548A0C18F2C62800D76A4A /* Cocoaheads-CVCT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4548A4218F2C62800D76A4A /* Build configuration list for PBXNativeTarget "Cocoaheads-CVCT" */;
+			buildPhases = (
+				F4548A0918F2C62800D76A4A /* Sources */,
+				F4548A0A18F2C62800D76A4A /* Frameworks */,
+				F4548A0B18F2C62800D76A4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cocoaheads-CVCT";
+			productName = "Cocoaheads-CVCT";
+			productReference = F4548A0D18F2C62800D76A4A /* Cocoaheads-CVCT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4548A3018F2C62800D76A4A /* Cocoaheads-CVCTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4548A4518F2C62800D76A4A /* Build configuration list for PBXNativeTarget "Cocoaheads-CVCTTests" */;
+			buildPhases = (
+				F4548A2D18F2C62800D76A4A /* Sources */,
+				F4548A2E18F2C62800D76A4A /* Frameworks */,
+				F4548A2F18F2C62800D76A4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4548A3718F2C62800D76A4A /* PBXTargetDependency */,
+			);
+			name = "Cocoaheads-CVCTTests";
+			productName = "Cocoaheads-CVCTTests";
+			productReference = F4548A3118F2C62800D76A4A /* Cocoaheads-CVCTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4548A0518F2C62800D76A4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Simon Blommegård";
+				TargetAttributes = {
+					F4548A3018F2C62800D76A4A = {
+						TestTargetID = F4548A0C18F2C62800D76A4A;
+					};
+				};
+			};
+			buildConfigurationList = F4548A0818F2C62800D76A4A /* Build configuration list for PBXProject "Cocoaheads-CVCT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4548A0418F2C62800D76A4A;
+			productRefGroup = F4548A0E18F2C62800D76A4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4548A0C18F2C62800D76A4A /* Cocoaheads-CVCT */,
+				F4548A3018F2C62800D76A4A /* Cocoaheads-CVCTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4548A0B18F2C62800D76A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4548A2C18F2C62800D76A4A /* Images.xcassets in Resources */,
+				F4A9CE2318F2CC8500F2CAC4 /* Main.xib in Resources */,
+				F4548A1B18F2C62800D76A4A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4548A2F18F2C62800D76A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4548A3D18F2C62800D76A4A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4548A0918F2C62800D76A4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A9CE2618F2D4B700F2CAC4 /* SBThirdViewController.m in Sources */,
+				F4A9CE2918F2F39E00F2CAC4 /* SBViewController.m in Sources */,
+				F4548A2718F2C62800D76A4A /* SBFirstViewController.m in Sources */,
+				F4548A1D18F2C62800D76A4A /* main.m in Sources */,
+				F4548A2118F2C62800D76A4A /* SBAppDelegate.m in Sources */,
+				F4548A2A18F2C62800D76A4A /* SBSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4548A2D18F2C62800D76A4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4548A3F18F2C62800D76A4A /* Cocoaheads_CVCTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4548A3718F2C62800D76A4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4548A0C18F2C62800D76A4A /* Cocoaheads-CVCT */;
+			targetProxy = F4548A3618F2C62800D76A4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4548A1918F2C62800D76A4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4548A1A18F2C62800D76A4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4548A3B18F2C62800D76A4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4548A3C18F2C62800D76A4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4548A4018F2C62800D76A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4548A4118F2C62800D76A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4548A4318F2C62800D76A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoaheads-CVCT/Cocoaheads-CVCT-Prefix.pch";
+				INFOPLIST_FILE = "Cocoaheads-CVCT/Cocoaheads-CVCT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4548A4418F2C62800D76A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoaheads-CVCT/Cocoaheads-CVCT-Prefix.pch";
+				INFOPLIST_FILE = "Cocoaheads-CVCT/Cocoaheads-CVCT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F4548A4618F2C62800D76A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cocoaheads-CVCT.app/Cocoaheads-CVCT";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoaheads-CVCT/Cocoaheads-CVCT-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cocoaheads-CVCTTests/Cocoaheads-CVCTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F4548A4718F2C62800D76A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cocoaheads-CVCT.app/Cocoaheads-CVCT";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoaheads-CVCT/Cocoaheads-CVCT-Prefix.pch";
+				INFOPLIST_FILE = "Cocoaheads-CVCTTests/Cocoaheads-CVCTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4548A0818F2C62800D76A4A /* Build configuration list for PBXProject "Cocoaheads-CVCT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4548A4018F2C62800D76A4A /* Debug */,
+				F4548A4118F2C62800D76A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4548A4218F2C62800D76A4A /* Build configuration list for PBXNativeTarget "Cocoaheads-CVCT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4548A4318F2C62800D76A4A /* Debug */,
+				F4548A4418F2C62800D76A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4548A4518F2C62800D76A4A /* Build configuration list for PBXNativeTarget "Cocoaheads-CVCTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4548A4618F2C62800D76A4A /* Debug */,
+				F4548A4718F2C62800D76A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4548A0518F2C62800D76A4A /* Project object */;
+}
